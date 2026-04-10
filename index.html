@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Księga Zieleni — Zagadki AK</title>
+<link rel="stylesheet" href="style.css">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,700;0,900;1,400;1,700&family=Lato:wght@300;400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+<div id="particles"></div>
+
+<!-- Top botanical SVG strip -->
+<div class="botanical-strip">
+  <svg viewBox="0 0 1200 90" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid slice">
+    <rect width="1200" height="90" fill="#0d1a0f"/>
+    <!-- Ground -->
+    <path d="M0,70 Q200,55 400,68 Q600,80 800,60 Q1000,45 1200,65 L1200,90 L0,90 Z" fill="#132016"/>
+    <!-- Grass blades -->
+    <g fill="#7ab648" opacity="0.7">
+      <path d="M30,70 Q32,45 28,30 Q35,50 38,70 Z"/>
+      <path d="M45,68 Q48,40 44,22 Q52,44 54,68 Z"/>
+      <path d="M58,70 Q60,50 57,38 Q64,52 66,70 Z"/>
+      <path d="M120,65 Q122,42 119,28 Q126,46 128,65 Z"/>
+      <path d="M135,67 Q138,38 134,20 Q142,42 144,67 Z"/>
+      <path d="M300,68 Q302,44 299,30 Q306,48 308,68 Z"/>
+      <path d="M315,66 Q318,38 314,22 Q322,44 324,66 Z"/>
+      <path d="M500,70 Q502,46 499,32 Q506,50 508,70 Z"/>
+      <path d="M515,68 Q518,40 514,24 Q522,46 524,68 Z"/>
+      <path d="M530,70 Q532,50 529,38 Q536,52 538,70 Z"/>
+      <path d="M700,66 Q702,42 699,28 Q706,46 708,66 Z"/>
+      <path d="M715,68 Q718,38 714,22 Q722,44 724,68 Z"/>
+      <path d="M900,70 Q902,46 899,32 Q906,50 908,70 Z"/>
+      <path d="M915,68 Q918,40 914,24 Q922,46 924,68 Z"/>
+      <path d="M1100,70 Q1102,46 1099,32 Q1106,50 1108,70 Z"/>
+      <path d="M1150,68 Q1153,40 1149,24 Q1157,46 1159,68 Z"/>
+      <path d="M1170,70 Q1172,50 1169,38 Q1176,52 1178,70 Z"/>
+    </g>
+    <!-- Small flowers -->
+    <g>
+      <!-- Flower 1 -->
+      <circle cx="80" cy="62" r="4" fill="#c9a84c" opacity="0.9"/>
+      <ellipse cx="80" cy="54" rx="3.5" ry="5.5" fill="#e91e63" opacity="0.75" transform="rotate(0,80,62)"/>
+      <ellipse cx="80" cy="54" rx="3.5" ry="5.5" fill="#f06292" opacity="0.75" transform="rotate(60,80,62)"/>
+      <ellipse cx="80" cy="54" rx="3.5" ry="5.5" fill="#e91e63" opacity="0.75" transform="rotate(120,80,62)"/>
+      <ellipse cx="80" cy="54" rx="3.5" ry="5.5" fill="#f06292" opacity="0.75" transform="rotate(180,80,62)"/>
+      <ellipse cx="80" cy="54" rx="3.5" ry="5.5" fill="#e91e63" opacity="0.75" transform="rotate(240,80,62)"/>
+      <ellipse cx="80" cy="54" rx="3.5" ry="5.5" fill="#f06292" opacity="0.75" transform="rotate(300,80,62)"/>
+      <!-- Flower 2 -->
+      <circle cx="380" cy="58" r="4" fill="#ffd600" opacity="0.9"/>
+      <ellipse cx="380" cy="50" rx="3.5" ry="5.5" fill="white" opacity="0.7" transform="rotate(0,380,58)"/>
+      <ellipse cx="380" cy="50" rx="3.5" ry="5.5" fill="white" opacity="0.7" transform="rotate(45,380,58)"/>
+      <ellipse cx="380" cy="50" rx="3.5" ry="5.5" fill="white" opacity="0.7" transform="rotate(90,380,58)"/>
+      <ellipse cx="380" cy="50" rx="3.5" ry="5.5" fill="white" opacity="0.7" transform="rotate(135,380,58)"/>
+      <ellipse cx="380" cy="50" rx="3.5" ry="5.5" fill="white" opacity="0.7" transform="rotate(180,380,58)"/>
+      <ellipse cx="380" cy="50" rx="3.5" ry="5.5" fill="white" opacity="0.7" transform="rotate(225,380,58)"/>
+      <ellipse cx="380" cy="50" rx="3.5" ry="5.5" fill="white" opacity="0.7" transform="rotate(270,380,58)"/>
+      <ellipse cx="380" cy="50" rx="3.5" ry="5.5" fill="white" opacity="0.7" transform="rotate(315,380,58)"/>
+      <!-- Flower 3 -->
+      <circle cx="650" cy="55" r="4" fill="#c9a84c" opacity="0.9"/>
+      <ellipse cx="650" cy="47" rx="3.5" ry="5.5" fill="#ce93d8" opacity="0.75" transform="rotate(0,650,55)"/>
+      <ellipse cx="650" cy="47" rx="3.5" ry="5.5" fill="#ba68c8" opacity="0.75" transform="rotate(72,650,55)"/>
+      <ellipse cx="650" cy="47" rx="3.5" ry="5.5" fill="#ce93d8" opacity="0.75" transform="rotate(144,650,55)"/>
+      <ellipse cx="650" cy="47" rx="3.5" ry="5.5" fill="#ba68c8" opacity="0.75" transform="rotate(216,650,55)"/>
+      <ellipse cx="650" cy="47" rx="3.5" ry="5.5" fill="#ce93d8" opacity="0.75" transform="rotate(288,650,55)"/>
+      <!-- Flower 4 -->
+      <circle cx="950" cy="58" r="4" fill="#ffd600" opacity="0.9"/>
+      <ellipse cx="950" cy="50" rx="3.5" ry="5.5" fill="#ff8a65" opacity="0.75" transform="rotate(0,950,58)"/>
+      <ellipse cx="950" cy="50" rx="3.5" ry="5.5" fill="#ff7043" opacity="0.75" transform="rotate(72,950,58)"/>
+      <ellipse cx="950" cy="50" rx="3.5" ry="5.5" fill="#ff8a65" opacity="0.75" transform="rotate(144,950,58)"/>
+      <ellipse cx="950" cy="50" rx="3.5" ry="5.5" fill="#ff7043" opacity="0.75" transform="rotate(216,950,58)"/>
+      <ellipse cx="950" cy="50" rx="3.5" ry="5.5" fill="#ff8a65" opacity="0.75" transform="rotate(288,950,58)"/>
+      <!-- Flower 5 -->
+      <circle cx="1130" cy="62" r="4" fill="#c9a84c" opacity="0.9"/>
+      <ellipse cx="1130" cy="54" rx="3.5" ry="5.5" fill="#80cbc4" opacity="0.75" transform="rotate(0,1130,62)"/>
+      <ellipse cx="1130" cy="54" rx="3.5" ry="5.5" fill="#4db6ac" opacity="0.75" transform="rotate(72,1130,62)"/>
+      <ellipse cx="1130" cy="54" rx="3.5" ry="5.5" fill="#80cbc4" opacity="0.75" transform="rotate(144,1130,62)"/>
+      <ellipse cx="1130" cy="54" rx="3.5" ry="5.5" fill="#4db6ac" opacity="0.75" transform="rotate(216,1130,62)"/>
+      <ellipse cx="1130" cy="54" rx="3.5" ry="5.5" fill="#80cbc4" opacity="0.75" transform="rotate(288,1130,62)"/>
+    </g>
+    <!-- Decorative branch left -->
+    <g opacity="0.4" stroke="#7ab648" stroke-width="1.5" fill="none">
+      <path d="M0,40 Q40,20 80,35 Q120,50 160,30"/>
+      <path d="M20,38 Q30,20 25,8"/>
+      <path d="M60,32 Q70,15 65,3"/>
+      <path d="M100,38 Q110,22 106,10"/>
+    </g>
+    <!-- Decorative branch right -->
+    <g opacity="0.4" stroke="#7ab648" stroke-width="1.5" fill="none">
+      <path d="M1200,38 Q1160,18 1120,33 Q1080,48 1040,28"/>
+      <path d="M1180,36 Q1170,18 1175,6"/>
+      <path d="M1140,30 Q1130,13 1135,1"/>
+      <path d="M1100,36 Q1090,20 1094,8"/>
+    </g>
+    <!-- Small leaves on branches -->
+    <g fill="#7ab648" opacity="0.5">
+      <ellipse cx="25" cy="8" rx="5" ry="3" transform="rotate(-30,25,8)"/>
+      <ellipse cx="65" cy="3" rx="5" ry="3" transform="rotate(-20,65,3)"/>
+      <ellipse cx="106" cy="10" rx="5" ry="3" transform="rotate(-40,106,10)"/>
+      <ellipse cx="1175" cy="6" rx="5" ry="3" transform="rotate(30,1175,6)"/>
+      <ellipse cx="1135" cy="1" rx="5" ry="3" transform="rotate(20,1135,1)"/>
+      <ellipse cx="1094" cy="8" rx="5" ry="3" transform="rotate(40,1094,8)"/>
+    </g>
+  </svg>
+</div>
+
+<div class="app">
+  <!-- Header -->
+  <div class="header">
+    <span class="header-leaf">🌿</span>
+    <div class="ornament">— ❧ —</div>
+    <h1>Księga Zieleni</h1>
+    <div class="subtitle">Zagadki z architektury krajobrazu</div>
+    <div class="ornament">— ❧ —</div>
+  </div>
+
+  <!-- HOME PAGE -->
+  <div id="page-home" class="page active">
+    <div class="section-title">Wybierz poziom trudności</div>
+    <div class="difficulty-grid">
+      <div class="diff-btn easy" onclick="selectDifficulty('easy')">
+        <span class="diff-icon">🌱</span>
+        <span class="diff-name">Łatwy</span>
+        <span class="diff-desc">Pierwsze kiełki</span>
+      </div>
+      <div class="diff-btn medium" onclick="selectDifficulty('medium')">
+        <span class="diff-icon">🌸</span>
+        <span class="diff-name">Średni</span>
+        <span class="diff-desc">Czas rozkwitu</span>
+      </div>
+      <div class="diff-btn hard" onclick="selectDifficulty('hard')">
+        <span class="diff-icon">🌳</span>
+        <span class="diff-name">Trudny</span>
+        <span class="diff-desc">Wiedza eksperta</span>
+      </div>
+    </div>
+    <div id="riddle-list-container"></div>
+  </div>
+
+  <!-- RIDDLE PAGE -->
+  <div id="page-riddle" class="page">
+    <button class="back-btn" onclick="goHome()">← Powrót</button>
+    <div class="riddle-header">
+      <div class="riddle-number" id="riddle-num-label"></div>
+      <div id="difficulty-badge" class="difficulty-badge"></div>
+    </div>
+
+    <div class="riddle-box">
+      <div class="riddle-text" id="riddle-text"></div>
+    </div>
+
+    <div class="answers-label">Wybierz odpowiedź</div>
+    <div class="answers-grid" id="answers-grid"></div>
+
+    <div class="hint-row">
+      <button class="hint-btn" onclick="showHint()">🔍 Wskazówka</button>
+    </div>
+    <div class="hint-box" id="hint-box"></div>
+
+    <div class="success-msg" id="success-msg">
+      <div class="icon">🌿</div>
+      <h3>Doskonale!</h3>
+      <p id="success-text"></p>
+    </div>
+
+    <div class="nav-row">
+      <button class="nav-btn" id="prev-btn" onclick="navigate(-1)">← Poprzednia</button>
+      <span class="progress-text" id="progress-text"></span>
+      <button class="nav-btn" id="next-btn" onclick="navigate(1)">Następna →</button>
+    </div>
+  </div>
+
+  <!-- Bottom botanical strip -->
+  <div class="bottom-strip">
+    <svg viewBox="0 0 780 80" xmlns="http://www.w3.org/2000/svg" style="width:100%;display:block;">
+      <g stroke="#7ab648" stroke-width="1" fill="none" opacity="0.35">
+        <path d="M0,60 Q100,30 200,55 Q300,75 400,40 Q500,15 600,50 Q700,75 780,45"/>
+        <path d="M40,55 Q50,35 42,18"/>
+        <path d="M120,45 Q130,25 122,8"/>
+        <path d="M220,52 Q230,32 222,15"/>
+        <path d="M340,45 Q350,28 344,12"/>
+        <path d="M460,42 Q470,22 462,5"/>
+        <path d="M580,48 Q590,28 582,11"/>
+        <path d="M680,42 Q690,22 682,5"/>
+        <path d="M740,45 Q750,28 744,12"/>
+      </g>
+      <g fill="#7ab648" opacity="0.3">
+        <ellipse cx="42" cy="18" rx="7" ry="4" transform="rotate(-35,42,18)"/>
+        <ellipse cx="122" cy="8" rx="7" ry="4" transform="rotate(-25,122,8)"/>
+        <ellipse cx="222" cy="15" rx="7" ry="4" transform="rotate(-30,222,15)"/>
+        <ellipse cx="344" cy="12" rx="7" ry="4" transform="rotate(-40,344,12)"/>
+        <ellipse cx="462" cy="5" rx="7" ry="4" transform="rotate(-20,462,5)"/>
+        <ellipse cx="582" cy="11" rx="7" ry="4" transform="rotate(-30,582,11)"/>
+        <ellipse cx="682" cy="5" rx="7" ry="4" transform="rotate(-25,682,5)"/>
+        <ellipse cx="744" cy="12" rx="7" ry="4" transform="rotate(-35,744,12)"/>
+      </g>
+    </svg>
+  </div>
+</div>
+
+<script src="riddles.js"></script>
+<script src="app.js"></script>
+</body>
+</html>
